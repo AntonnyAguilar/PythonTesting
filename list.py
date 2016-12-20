@@ -29,3 +29,6 @@ matrix[0] # my_list
 matrix[0][0] # my_list[0] --> 40
 
 first_col = [row[0] for row in matrix] #  first_col --> [40,'one',1,'f']
+
+x=2
+list(x) # parse x to a list
