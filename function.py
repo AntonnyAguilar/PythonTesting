@@ -28,3 +28,14 @@ def is_prime(num):
       break
   else:
     print 'Prime'
+
+def ran_bool(num,low,high):
+  # def ran_bool(num,low,high): return num in range(low,high)
+   if num >= low and num<=high:
+  # if num in range(low,high):
+    return True
+  else:
+    return False
+
+def volu(rad):
+  return (4.0/3)*3.14*(rad**3)
